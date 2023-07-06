@@ -1,0 +1,4 @@
+INFO    2023-06-15 18:01:25,592 [main] testcases.TestProperties  - OR Properties Loaded
+INFO    2023-06-15 18:01:31,249 [main] testcases.TestProperties  - Chrome browser launched
+INFO    2023-06-15 18:01:33,693 [main] testcases.TestProperties  - Navigated to: http://gmail.com
+INFO    2023-06-15 18:01:33,851 [main] testcases.TestProperties  - Typing in an Element: username_IDentered the value as: testingtest@gmail.com

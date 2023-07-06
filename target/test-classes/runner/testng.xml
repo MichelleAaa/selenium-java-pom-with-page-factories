@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Learning Test" >
+	<groups>
+		<run>
+			<include name="high"/>
+		</run>
+	</groups>
+	<listeners>
+		<listener class-name="testnglearning.CustomListeners" />
+		<!--
+		<listener class-name="org.uncommons.report.reportng.HTMLReporter" />
+		-->
+	</listeners>
+	
+  <test name="Find Car Test" >
+    <classes>
+       <class name="testcases.FindCarTest" />
+    </classes>
+  </test>
+
+ 
+  <!-- 
+  <test name="Validate Title">
+    <classes>
+      <class name="testnglearning.TestCase2"/>
+    </classes>
+  </test>
+  
+  <test name="Dependency Test">
+    <classes>
+      <class name="testnglearning.TestCase3"/>
+    </classes>
+  </test>
+  -->
+  
+</suite>
